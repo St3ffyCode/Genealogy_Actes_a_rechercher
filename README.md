@@ -264,6 +264,7 @@ Si les lieux de votre fichier suivent un autre format, le classement des feuille
 |---|---|
 | `Actes_a_rechercher.html` | La page web, autonome |
 | `README.md` | Ce mode d'emploi |
+| `LICENSE` | Licence MIT |
 | `.gitignore` | Exclut les données personnelles (fichiers `.ged`, `.gedcom` et classeurs) si vous utilisez git |
 
 ## Composants tiers
@@ -275,7 +276,7 @@ Si vous redistribuez le projet, joignez les avis de licence de ces composants.
 
 ## Licence
 
-[À compléter : choisissez une licence pour ce projet avant la publication, par exemple MIT. Sans licence, le code reste soumis au droit d'auteur par défaut et personne n'a le droit de le réutiliser.]
+Ce projet est distribué sous licence **MIT** (voir le fichier `LICENSE`) : vous pouvez l'utiliser, le copier, le modifier et le partager librement, à condition de conserver le nom de l'auteur et la mention de licence. Il est fourni tel quel, sans garantie.
 
 ## Auteur
 
