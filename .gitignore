@@ -1,0 +1,5 @@
+# Données personnelles : ne jamais publier
+*.ged
+*.gedcom
+Actes_a_rechercher_*.xlsx
+
