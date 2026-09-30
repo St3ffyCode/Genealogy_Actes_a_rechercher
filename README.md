@@ -244,12 +244,15 @@ Si les lieux de votre fichier suivent un autre format, le classement des feuille
 ## Confidentialité
 
 - La page web lit le fichier dans votre navigateur. Elle n'effectue aucune requête réseau : la bibliothèque Excel et les polices sont dans le fichier HTML. C'est vérifié dans Chromium, pas dans les autres navigateurs.
+- Le classeur reste sur votre ordinateur tant que vous ne l'envoyez pas vous-même quelque part. Si vous l'importez dans Google Sheets, il est envoyé à Google.
 - Un GEDCOM et le classeur qui en découle contiennent des données personnelles, parfois sur des personnes vivantes. **Ne les publiez pas** dans un dépôt public ni ailleurs. Le fichier `.gitignore` fourni exclut les fichiers `.ged`, `.gedcom` et `Actes_a_rechercher_*.xlsx`.
 
 ## Compatibilité et limites
 
 - Page web : testée avec Chromium. Firefox, Safari et Edge ne sont pas testés.
 - Le classeur s'ouvre dans Excel et dans LibreOffice Calc. Les compteurs de la page `Suivi` sont des formules, calculées à l'ouverture.
+- Vous n'avez pas Excel ? Le classeur peut aussi être **importé dans Google Sheets** (gratuit, avec un compte Google) : les liens entre les onglets y fonctionnent (testé). Attention : dans ce cas, le classeur est envoyé chez Google, donc vos données quittent votre ordinateur (voir [Confidentialité](#confidentialité)).
+- Seuls Excel et Google Sheets ont été essayés avec les liens entre les onglets. LibreOffice Calc n'a pas été essayé pour ces liens.
 - Les codes pays `{pp}` couvrent environ 60 pays courants ; pour les autres, `{pp}` est vide et aucun nom n'est proposé s'il figure dans le modèle.
 - Les noms de fichier n'existent que pour les dates exactes tant que l'option *Exiger une date complète* est cochée.
 - L'encodage ANSEL, rare, n'est lu qu'approximativement : les accents peuvent être mal restitués.
