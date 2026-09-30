@@ -265,7 +265,7 @@ Si les lieux de votre fichier suivent un autre format, le classement des feuille
 
 ## Composants tiers
 
-- [ExcelJS](https://github.com/exceljs/exceljs) 4.4.0, licence MIT, embarqué dans la page web pour écrire et lire les fichiers Excel, avec une modification d'une ligne (les liens internes du classeur sont écrits sans référence externe).
+- [ExcelJS](https://github.com/exceljs/exceljs) 4.4.0, licence MIT, embarqué dans la page web pour écrire et lire les fichiers Excel.
 - Polices [Libre Caslon Text](https://fonts.google.com/specimen/Libre+Caslon+Text) et [Atkinson Hyperlegible](https://fonts.google.com/specimen/Atkinson+Hyperlegible), licence SIL Open Font License, embarquées dans la page web.
 
 Si vous redistribuez le projet, joignez les avis de licence de ces composants.
